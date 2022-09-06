@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+nav {
+  background-color: #131b1b;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.nav-item {
+  text-decoration: none;
+  font-size: 14px;
+  color: #a2a192;
+  padding: 15px;
+}
+
+.nav-item:hover {
+  color: #08f2b4;
+}
+
+.nav-item:nth-child(3) {
+  color: #08f2b4;
+}
